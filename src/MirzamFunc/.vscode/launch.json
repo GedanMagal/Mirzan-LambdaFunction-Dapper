@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "MirzamFunc:MirzamFunc::MirzamFunc.Function::Handler (dotnet6)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/",
+                "lambdaHandler": "MirzamFunc::MirzamFunc.Function::Handler"
+            },
+            "lambda": {
+                "runtime": "dotnet6",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
